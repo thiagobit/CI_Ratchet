@@ -1,0 +1,21 @@
+{
+	"description": "A simple chat application in CodeIgniter using websocket with Ratchet.",
+	"name": "ci_ratchet/ci_ratchet",
+	"type": "project",
+	"license": "MIT",
+	"keywords": [
+        "ratchet",
+        "codeigniter",
+        "websocket"
+    ],
+	"require": {
+		"php": "^7.0",
+		"cboden/ratchet": "0.3.*"
+	},
+	"autoload": {
+		"psr-4": {
+			"Application\\": "application"
+		},
+		"classmap": ["system"]
+	}
+}
